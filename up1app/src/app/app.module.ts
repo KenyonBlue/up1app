@@ -13,6 +13,9 @@ import { Chapter3Page } from '../pages/chapter3/chapter3';
 import { Chapter4Page } from '../pages/chapter4/chapter4';
 import { Chapter5Page } from '../pages/chapter5/chapter5';
 import { Chapter6Page } from '../pages/chapter6/chapter6';
+import { WelcomePage } from '../pages/welcome/welcome';
+import { SignupPage } from '../pages/signup/signup';
+import { LoginPage } from '../pages/login/login';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -29,7 +32,10 @@ import { SplashScreen } from '@ionic-native/splash-screen';
        Chapter3Page,
        Chapter4Page,
        Chapter5Page,
-       Chapter6Page
+       Chapter6Page,
+       WelcomePage,
+       SignupPage,
+       LoginPage
   ],
   imports: [
     BrowserModule,
@@ -47,7 +53,10 @@ import { SplashScreen } from '@ionic-native/splash-screen';
        Chapter3Page,
        Chapter4Page,
        Chapter5Page,
-       Chapter6Page
+       Chapter6Page,
+       WelcomePage,
+       SignupPage,
+       LoginPage
   ],
   providers: [
     StatusBar,
